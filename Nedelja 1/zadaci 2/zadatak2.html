@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Software Order Form</h1>
+    <ol style="list-style-type: disc;">License details
+        <li>Email adress <input type="email" placeholder="example@gmail.com" name="email" required></li>
+        <li>Website <input type="text" name="website" placeholder="http://www.example.com/" required></li>
+        <li>Number of licences <input type="text" name="licence" placeholder="How many to buy (1-10)" required></li>
+    </ol>
+    <ol style="list-style-type: disc;">Billing details
+        <li>Name <input type="text" name="flname" placeholder="First Last"  required></li>
+        <li>Addres <input type="textarea" name="addres" placeholder="House number, street, city, state" required></li>
+        <li>Postal code <input type="text" name="postalcode" placeholder="Post code or zip code" required></li>
+        <li>Country <select name="country" required>
+            <option value="australia">Australia</option>
+            <option value="america">America</option>
+            <option value="montenegro">Montenegro</option>
+            <option value="germany">Germany</option>
+            <option value="switzerland">Swizerland</option>
+        </select></li>
+        <li>Phone <i>(optional)</i> <input type="text" name="phone" placeholder="Include country prefix, e. g."></li>
+    </ol>
+    <ol style="list-style-type: disc;">Payment details
+        <li>Card number <input type="text" name="cardnum" placeholder="As shown on the front od your card" required></li>
+        <li>CVV code <input type="text" name="cvvcode" placeholder="3-digit number on back of your card" required></li>
+        <li>Expiry date <input type="text" name="expirydate" placeholder="YYYY-MM" required></li>
+    </ol>
+    <input type="submit" value="Place Your Order" >
+    
+  
+        
+    </table>
+</body>
+</html>
