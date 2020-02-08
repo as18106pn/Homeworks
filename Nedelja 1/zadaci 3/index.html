@@ -80,6 +80,53 @@
         </table>
     </div>
     <div id="task_4">
+        <h1>Job Application With Resume Upload</h1>
+        
+
+        <form method="get">
+        <h2>Contact Information</h2>
+            First Name <br>
+                <input type="text" required> <br>
+            Last Name <br>
+                <input type="text" required><br>
+            Email <br>
+                <input type="email" required><br>
+            Phone <br>
+                <input type="tel" required>  
+        <h2>Position</h2>
+            Position you are applying for <br>
+                <select name="positions" required>
+                    <option value="">Choose</option>
+                    <option value="backend_python" selected>Backend Python</option>
+                    <option value="backend_nodejs">Backend NodeJS</option>
+                    <option value="frontend_react">Frontend React</option>
+                    <option value="frontend_angular">Frontend Angular</option>
+                </select>
+                <br> <br>
+            Resume upload <br>
+                <input type="file" name="resume_file" accept=".pdf, .doc">
+                <br><br>
+            Portfolio Website <br>
+                <input type="url">
+                <br><br>
+            Salary requirements <br>
+                <input type="text">
+                <br><br>
+            When can you start <br>
+                <input type="text">
+                <br><br>
+            Are you willing to relocate?<br>
+                <input type="radio" name="relocation" value="yes"> Yes <br>
+                <input type="radio" name="relocation" value="no"> No <br>
+                <input type="radio" name="relocation" value="not_sure"> Not sure
+                <br><br>
+            Last company you worked for <br>
+                <input type="text">
+                <br><br>
+            Comments <br>
+                <textarea name="comments" cols="30" rows="10"></textarea>
+        </form>
+    
 
 
     </div>
